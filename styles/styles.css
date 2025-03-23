@@ -1,0 +1,81 @@
+h1, h2, button {
+    font-family: Young Serif, Arial;
+    text-align: center;
+}
+
+hr {
+    margin: 200px;
+}
+
+p, h3 {
+    font-family: Lora, serif;
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero-section-name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+
+.intro-text {
+    padding: 20px;
+}
+
+.intro-img {
+    text-align: center;
+}
+
+.my-picture {
+    margin-top: auto;
+    border-radius: 50%;
+    width: 150px;
+}
+
+.intro-text {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    align-items: center;
+    width: 50%;
+    margin: 100px auto 0 auto;
+    row-gap: 100px;
+}
+
+.skills-img {
+    width: 200px;
+}
+
+.contact-me {
+    text-align: center;
+}
+
+.if-you-love-music {
+    margin-top: 75px;
+}
+
+button {
+    margin-top: 100px;
+    background-color: rgb(68, 68, 68);
+    color: white;
+    border-radius: 50px;
+    border: none;
+    width: 200px;
+    height: 75px;
+    font-size: 25px;
+}
